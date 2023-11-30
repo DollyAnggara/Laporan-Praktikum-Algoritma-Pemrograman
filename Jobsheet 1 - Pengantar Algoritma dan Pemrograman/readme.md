@@ -22,7 +22,13 @@ Program secara umum didefinisikan sebagai kumpulan instruksi atau perintah yang 
 
 <h2 align="margin">Tujuan Pemrograman</h2>
 
-<h1 align="margin">IDE (Integrated Development Environment)</h1>
+- Dapat membantu untuk berpikir dengan logis dan analitik, misalnya saja ketika Anda menyukai brainteaser maka dengan pengkodean inilah Anda bisa menemukan banyak hal terkait brainteaser.
+- Mampu tingkatkan penalaran secara logis dan mudah memecahkan masalah
+- Mampu kembangkan lobus frontal dari otak dimana bertanggung jawab untuk bisa menemukan sebuah solusi
+- Dapat mengotomatisasi sebuah proses
+- Dalam prakteknya bisa melakukan pengajaran agar komputer bisa melakukan suatu perintah.
+
+<h1 align="margin">C. IDE(Integrated Development Environment)</h1>
 Pengertian Integrated Development Environment adalah rangkaian software yang menyatukan semua tool pengembangan menjadi satu GUI (Graphical User Interface). Dengannya, proses pengembangan bisa menjadi lebih efisien dan lebih cepat.
 
 <h2 align="margin">Contoh IDE (Integrated Development Environment)</h2>
