@@ -33,8 +33,8 @@ Pengertian Integrated Development Environment adalah rangkaian software yang men
 
 <h2 align="margin">Contoh IDE (Integrated Development Environment)</h2>
 
-- Multilanguage – mendukung banyak program bahasa yang bisa membantu pemula meningkatkan skill. Misalnya, Visual Studio adalah salah satu contoh Integrated Development Environment ---- multilanguage terpopuler yang menawarkan fitur-fitur canggih serta setup ekstensi dan upgrade yang mudah.
-- Mobile development – secara khusus dibangun untuk mobile development, seperti AppCode dan Android Studio. Beberapa Integrated Development Environment, terutama IDE multilanguage, mendukung plugin mobile development seperti Real-Time Chat dan File Manager.
-- Language-specific – dirancang untuk developer software yang bekerja menggunakan satu bahasa. Contohnya, Jikes dan Jcreator dibuat untuk Java, dan Idle untuk Python.
-- Cloud-based – menyediakan fitur built-in untuk pair programming real-time dengan feedback langsung yang memungkinkan developer membuat software hanya menggunakan browser sehingga mereka bisa mengakses kode secara remote (jarak jauh).
-- HTML – digunakan untuk mengembangkan aplikasi HTML seperti Notepad++, Atom, dan Adobe DreamWeaver CC. Tool ini mengotomatiskan banyak tugas dalam web development
+- Multilanguage mendukung banyak program bahasa yang bisa membantu pemula meningkatkan skill. Misalnya, Visual Studio adalah salah satu contoh Integrated Development Environment multilanguage terpopuler yang menawarkan fitur-fitur canggih serta setup ekstensi dan upgrade yang mudah.
+- Mobile development secara khusus dibangun untuk mobile development, seperti AppCode dan Android Studio. Beberapa Integrated Development Environment, terutama IDE multilanguage, mendukung plugin mobile development seperti Real-Time Chat dan File Manager.
+- Language-specific dirancang untuk developer software yang bekerja menggunakan satu bahasa. Contohnya, Jikes dan Jcreator dibuat untuk Java, dan Idle untuk Python.
+- Cloud-based menyediakan fitur built-in untuk pair programming real-time dengan feedback langsung yang memungkinkan developer membuat software hanya menggunakan browser sehingga mereka bisa mengakses kode secara remote (jarak jauh).
+- HTML digunakan untuk mengembangkan aplikasi HTML seperti Notepad++, Atom, dan Adobe DreamWeaver CC. Tool ini mengotomatiskan banyak tugas dalam web development
