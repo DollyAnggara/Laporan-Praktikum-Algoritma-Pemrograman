@@ -200,3 +200,58 @@ b++: menambah nilai variabel b dengan 1 setelah nilai variabel tersebut digunaka
 
 a--: mengurangi nilai variabel a dengan 1 setelah nilai variabel tersebut digunakan.
 b--: mengurangi nilai variabel b dengan 1 setelah nilai variabel tersebut digunakan.
+
+
+<h1 align="margin"> Jobsheet 5 - Flow Control (Decision Making)</h1>
+
+Flow control adalah salah satu bagian penting dalam pemrograman. Flow control memungkinkan pemrogram untuk mengontrol aliran eksekusi program. Flow control dapat digunakan untuk membuat keputusan, mengulangi blok kode, atau melakukan lompatan ke bagian lain dari program.
+
+<h2 align="margin"> Pernyataan if </h2>
+
+Pernyataan if adalah pernyataan flow control yang paling dasar. Pernyataan if digunakan untuk memeriksa kondisi dan mengeksekusi blok kode jika kondisi tersebut bernilai benar.
+
+Bentuk umum pernyataan if adalah sebagai berikut:
+```
+C
+if (kondisi) {
+  // blok kode yang akan dieksekusi jika kondisi bernilai benar
+}
+```
+<h2 align="margin"> Pernyataan if-else </h2>
+
+Pernyataan if-else adalah pernyataan flow control yang memungkinkan pemrogram untuk mengeksekusi blok kode yang berbeda berdasarkan nilai kondisi.
+
+Bentuk umum pernyataan if-else adalah sebagai berikut:
+
+```
+if (kondisi) {
+  // blok kode yang akan dieksekusi jika kondisi bernilai benar
+} else {
+  // blok kode yang akan dieksekusi jika kondisi bernilai salah
+}
+```
+<h2 align="margin"> Pernyataan switch-case </h2>
+
+Pernyataan switch-case adalah pernyataan flow control yang memungkinkan pemrogram untuk mengeksekusi blok kode yang berbeda berdasarkan nilai variabel.
+
+Bentuk umum pernyataan switch-case adalah sebagai berikut:
+```
+switch (variabel) {
+  case nilai_1:
+    // blok kode yang akan dieksekusi jika variabel = nilai_1
+    break;
+  case nilai_2:
+    // blok kode yang akan dieksekusi jika variabel = nilai_2
+    break;
+  ...
+  default:
+    // blok kode yang akan dieksekusi jika variabel tidak sama dengan nilai_1, nilai_2, ...
+    break;
+```
+<h2 align="margin"> Operator ternary </h2>
+
+Operator ternary adalah operator yang dapat digunakan untuk membuat keputusan dalam satu baris kode. Operator ternary memiliki bentuk umum sebagai berikut:
+```
+ekspresi ? ekspresi_jika_benar : ekspresi_jika_salah;
+```
+Ekspresi pertama akan dievaluasi terlebih dahulu. Jika nilai ekspresi pertama adalah benar, maka ekspresi kedua akan dievaluasi dan hasilnya akan dikembalikan. Jika nilai ekspresi pertama adalah salah, maka ekspresi ketiga akan dievaluasi dan hasilnya akan dikembalikan.
