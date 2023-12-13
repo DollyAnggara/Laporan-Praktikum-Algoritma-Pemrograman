@@ -130,52 +130,52 @@ Operator adalah simbol yang digunakan untuk melakukan operasi pada data. Operato
 
 Operator aritmatika digunakan untuk melakukan operasi matematika pada data numerik. Operator aritmatika yang tersedia dalam bahasa C adalah:
 
-- +: penjumlahan
-- -: pengurangan
-- *: perkalian
-- /: pembagian
-- %: modulus
+- `+` : penjumlahan
+- `-` : pengurangan
+- `*` : perkalian
+- `/` : pembagian
+-`%` : modulus
 
 <h2 align="margin"> Operator Penugasan </h2>
 
 Operator penugasan digunakan untuk memasukkan nilai ke dalam variabel. Operator penugasan yang tersedia dalam bahasa C adalah:
 
-- =: penugasan sederhana
-- +=: penugasan penjumlahan
-- -=: penugasan pengurangan
-- *=: penugasan perkalian
-- /=: penugasan pembagian
-- %=: penugasan modulus
+- `=` : penugasan sederhana
+- `+=` : penugasan penjumlahan
+- `-=` : penugasan pengurangan
+- `*=` : penugasan perkalian
+-`/=` : penugasan pembagian
+- `%=` : penugasan modulus
 
 <h2 align="margin"> Operator Perbandingan </h2>
 
 Operator perbandingan digunakan untuk membandingkan dua nilai. Operator perbandingan yang tersedia dalam bahasa C adalah:
 
-- ==: sama dengan
-- !=: tidak sama dengan
-- >: lebih besar dari
-- <: lebih kecil dari
-- >=: lebih besar dari atau sama dengan
-- <=: lebih kecil dari atau sama dengan
+- `==`: sama dengan
+- `!=` : tidak sama dengan
+- `>` : lebih kecil dari
+- `<` : lebih kecil dari
+- `>=` : lebih besar dari atau sama dengan
+- `<=` : lebih kecil dari atau sama dengan
 
 <h2 align="margin"> Operator Logika</h2>
 
 Operator logika digunakan untuk menggabungkan dua atau lebih pernyataan logika. Operator logika yang tersedia dalam bahasa C adalah:
 
-- &&: dan
-- ||: atau
-- !: tidak
+- `&&` : dan
+- `||` : atau
+- `!` : tidak
 
 <h2 align="margin"> Operator Bitwise</h2>
 
 Operator bitwise digunakan untuk melakukan operasi pada bit data. Operator bitwise yang tersedia dalam bahasa C adalah:
 
-- &: AND
-- |: OR
-- ^: XOR
-- ~: NOT
-- <<: shift kiri
-- >>: shift kanan
+- `&` : AND
+- `|` : OR
+- `^` : XOR
+- `~` : NOT
+- `<<` : shift kiri
+- `>>` : shift kanan
 
 <h2 align="margin"> Operator Increment dan Decrement </h2>
 
