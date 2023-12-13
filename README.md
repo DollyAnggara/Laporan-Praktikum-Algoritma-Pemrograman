@@ -1,10 +1,10 @@
 # Laporan-Praktikum-Algoritma-Pemrograman
 
 <h1 align="margin"> Jobsheet 1 - Pengantar Algoritma dan Pemrograman</h1>
-<h1 align="margin"> Algoritma</h1>
+<h2 align="margin"> Algoritma</h2>
 Algoritma didefinisikan sebagai rangkaian terurut langkah-langkah yang logis dan sistematis yang disusun untuk menyelesaikan suatu masalah. Algoritma dikatakan sebagai jantung ilmu komputer atau informatika dan sebenarnya pemakaian algoritma ini tidak hanya dalam ilmu komputer tetapi juga dalam bidang lain (kehidupan sehari-hari).
 
-<h2 align="margin">Tujuan Algoritma</h2>
+<h3 align="margin">Tujuan Algoritma</h3>
 
 - Efisiensi: Untuk mengukur sebuah algoritma yang efisien harus
 mempertimbangkan efisiensi waktu-CPU dan memori. Terkadang
@@ -20,10 +20,10 @@ menyelesaikan masalah yang berbeda-beda walau menghasilkan solusi
 - Reusability: Algoritma adalah metode bukan program, artinya bahwa algoritma harus mampu digunakan tanpa melihat bahasa pemrogramanyang digunakan, dapat digunakan kembali dan dan bahkan berkali-kali pada pada berbagai situasi untuk menerapkan dalam bahasa pemrograman apapun.
 
 
-<h1 align="margin"> Pemrograman</h1>
+<h2 align="margin"> Pemrograman</h2>
 Program secara umum didefinisikan sebagai kumpulan instruksi atau perintah yang disusun sedemikian rupa sehingga mempunyai urutan nalar yang logis untuk menyelesaikan suatu persoalan yang dimengerti oleh komputer.
 
-<h2 align="margin">Tujuan Pemrograman</h2>
+<h3 align="margin">Tujuan Pemrograman</h3>
 
 - Dapat membantu untuk berpikir dengan logis dan analitik, misalnya saja ketika Anda menyukai brainteaser maka dengan pengkodean inilah Anda bisa menemukan banyak hal terkait brainteaser.
 - Mampu tingkatkan penalaran secara logis dan mudah memecahkan masalah
@@ -31,10 +31,10 @@ Program secara umum didefinisikan sebagai kumpulan instruksi atau perintah yang 
 - Dapat mengotomatisasi sebuah proses
 - Dalam prakteknya bisa melakukan pengajaran agar komputer bisa melakukan suatu perintah.
 
-<h1 align="margin"> IDE(Integrated Development Environment)</h1>
+<h2 align="margin"> IDE(Integrated Development Environment)</h2>
 Pengertian Integrated Development Environment adalah rangkaian software yang menyatukan semua tool pengembangan menjadi satu GUI (Graphical User Interface). Dengannya, proses pengembangan bisa menjadi lebih efisien dan lebih cepat.
 
-<h2 align="margin">Contoh IDE (Integrated Development Environment)</h2>
+<h3 align="margin">Contoh IDE (Integrated Development Environment)</h3>
 
 - Multilanguage mendukung banyak program bahasa yang bisa membantu pemula meningkatkan skill. Misalnya, Visual Studio adalah salah satu contoh Integrated Development Environment multilanguage terpopuler yang menawarkan fitur-fitur canggih serta setup ekstensi dan upgrade yang mudah.
 - Mobile development secara khusus dibangun untuk mobile development, seperti AppCode dan Android Studio. Beberapa Integrated Development Environment, terutama IDE multilanguage, mendukung plugin mobile development seperti Real-Time Chat dan File Manager.
