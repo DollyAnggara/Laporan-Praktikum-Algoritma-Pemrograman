@@ -255,3 +255,54 @@ Operator ternary adalah operator yang dapat digunakan untuk membuat keputusan da
 ekspresi ? ekspresi_jika_benar : ekspresi_jika_salah;
 ```
 Ekspresi pertama akan dievaluasi terlebih dahulu. Jika nilai ekspresi pertama adalah benar, maka ekspresi kedua akan dievaluasi dan hasilnya akan dikembalikan. Jika nilai ekspresi pertama adalah salah, maka ekspresi ketiga akan dievaluasi dan hasilnya akan dikembalikan.
+
+<h1 align="margin"> JObsheet 6 - Flow Control (Perulangan))</h1>
+
+Perulangan adalah salah satu bagian penting dalam pemrograman. Perulangan memungkinkan pemrogram untuk mengeksekusi blok kode berulang kali. Perulangan dapat digunakan untuk melakukan tugas-tugas yang berulang, seperti mencetak angka dari 1 hingga 10, atau menambahkan semua bilangan dari 1 hingga 100.
+
+<h2 align="margin"> Pernyataan for</h2>
+
+Pernyataan for adalah pernyataan perulangan yang paling dasar. Pernyataan for digunakan untuk mengeksekusi blok kode berulang kali hingga kondisi tertentu terpenuhi.
+
+Bentuk umum pernyataan for adalah sebagai berikut:
+```
+for (inisialisasi; kondisi; iterasi) {
+  // blok kode yang akan dieksekusi berulang kali
+}
+```
+<h2 align="margin"> Pernyataan while</h2>
+
+Pernyataan while adalah pernyataan perulangan yang digunakan untuk mengeksekusi blok kode berulang kali selama kondisi tertentu terpenuhi.
+
+Bentuk umum pernyataan while adalah sebagai berikut:
+
+C
+while (kondisi) {
+  // blok kode yang akan dieksekusi berulang kali
+}
+
+<h2 align="margin"> Pernyataan do-while</h2>
+
+Pernyataan do-while adalah pernyataan perulangan yang digunakan untuk mengeksekusi blok kode berulang kali setidaknya satu kali, bahkan jika kondisi tidak terpenuhi.
+
+Bentuk umum pernyataan do-while adalah sebagai berikut:
+```
+do {
+  // blok kode yang akan dieksekusi berulang kali
+} while (kondisi);
+```
+
+<h2 align="margin"> Perulangan Bersarang (Nested)</h2>
+Perulangan Bersarang (Nested)
+
+Perulangan bersarang adalah perulangan yang di dalamnya terdapat perulangan lain. Perulangan bersarang dapat digunakan untuk melakukan tugas-tugas yang lebih kompleks, seperti mencetak matriks atau menghitung faktorial bilangan.
+
+Misalnya, pernyataan berikut akan mencetak matriks 3x3:
+
+```
+for (int i = 0; i < 3; i++) {
+  for (int j = 0; j < 3; j++) {
+    printf("%d\n", i * 3 + j + 1);
+  }
+}
+```
