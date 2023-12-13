@@ -123,7 +123,7 @@ Berikut adalah beberapa tipe data dasar dalam bahasa C:
 - signed: tipe data bilangan bulat dengan tanda
 
 
-<h1 align="margin"> Operator</h1>
+<h1 align="margin"> Jobsheet 4 - Operator</h1>
 Operator adalah simbol yang digunakan untuk melakukan operasi pada data. Operator dapat digunakan untuk melakukan operasi aritmatika, penugasan, perbandingan, logika, bitwise, dan incriment\decrement
 
 <h2 align="margin"> Operator Aritmatika </h2>
