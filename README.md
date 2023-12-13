@@ -75,4 +75,50 @@ Program C bersifat case-sensitive, artinya huruf besar dan kecil berbeda makna. 
 -	Setiap ekspresi dan pernyataan harus mengikuti aturan sintaks yang berlaku, seperti menggunakan tanda kurung yang sesuai, operator yang valid, dan operand yang sesuai dengan tipe data.
 
 
+<h1 align="margin"> Jobsheet 3 - Variabel, Konstanta dan Tipe Data </h1>
+<h2 align="margin"> Variabel:</h2>
+
+Dalam bahasa C, variabel adalah sebuah nama yang digunakan untuk merujuk ke lokasi memori yang menyimpan nilai. Nilai yang disimpan dalam variabel dapat berupa angka, huruf, teks, atau jenis data lainnya.
+Untuk mendeklarasikan variabel dalam bahasa C, kita menggunakan kata kunci int, float, char, atau tipe data lainnya. Berikut adalah beberapa contoh deklarasi variabel:
+```
+int umur;
+float tinggi
+char nama[100];
+```
+- Deklarasi umur mendeklarasikan variabel umur bertipe int. Variabel umur dapat menyimpan nilai angka, seperti 18, 25, atau 35.
+
+- Deklarasi tinggi mendeklarasikan variabel tinggi bertipe float. Variabel tinggi dapat menyimpan nilai angka pecahan, seperti 1.70, 1.80, atau 1.90.
+
+- Deklarasi nama mendeklarasikan variabel nama bertipe char. Variabel nama dapat menyimpan nilai teks, seperti "John Doe", "Jane Doe", atau "John Smith".
+
+<h2 align="margin"> Konstanta:</h2>
+Konstanta adalah variabel yang nilainya tidak dapat diubah. Konstanta digunakan untuk menyimpan nilai yang bersifat tetap, seperti konstanta pi (π), konstanta gravitasi (g), atau konstanta kecepatan cahaya (c).
+
+Untuk mendeklarasikan konstanta dalam bahasa C, kita menggunakan kata kunci const. Berikut adalah beberapa contoh deklarasi konstanta:
+```
+const double PI = 3.141592653589793;
+const float GRAVITASI = 9.8;
+const int KECEPATAN_CAHAYA = 299792458;
+```
+- Deklarasi PI mendeklarasikan konstanta PI bertipe double dengan nilai 3.141592653589793.
+
+- Deklarasi GRAVITASI mendeklarasikan konstanta GRAVITASI bertipe float dengan nilai 9.8.
+
+- Deklarasi KECEPATAN_CAHAYA mendeklarasikan konstanta KECEPATAN_CAHAYA bertipe int dengan nilai 299792458.
+
+
+<h2 align="margin"> Tipe Data:</h2>
+
+Tipe data adalah jenis data yang dapat disimpan dalam variabel. Setiap tipe data memiliki karakteristiknya masing-masing, seperti ukuran, rentang nilai, dan operasi yang dapat dilakukan.
+
+Berikut adalah beberapa tipe data dasar dalam bahasa C:
+
+- int: tipe data bilangan bulat
+- float: tipe data bilangan pecahan
+- char: tipe data karakter
+- double: tipe data bilangan pecahan presisi ganda
+- long: tipe data bilangan bulat panjang
+- short: tipe data bilangan bulat pendek
+- unsigned: tipe data bilangan bulat tanpa tanda
+- signed: tipe data bilangan bulat dengan tanda
 
