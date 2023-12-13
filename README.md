@@ -256,7 +256,7 @@ ekspresi ? ekspresi_jika_benar : ekspresi_jika_salah;
 ```
 Ekspresi pertama akan dievaluasi terlebih dahulu. Jika nilai ekspresi pertama adalah benar, maka ekspresi kedua akan dievaluasi dan hasilnya akan dikembalikan. Jika nilai ekspresi pertama adalah salah, maka ekspresi ketiga akan dievaluasi dan hasilnya akan dikembalikan.
 
-<h1 align="margin"> JObsheet 6 - Flow Control (Perulangan))</h1>
+<h1 align="margin"> Jobsheet 6 - Flow Control (Perulangan))</h1>
 
 Perulangan adalah salah satu bagian penting dalam pemrograman. Perulangan memungkinkan pemrogram untuk mengeksekusi blok kode berulang kali. Perulangan dapat digunakan untuk melakukan tugas-tugas yang berulang, seperti mencetak angka dari 1 hingga 10, atau menambahkan semua bilangan dari 1 hingga 100.
 
