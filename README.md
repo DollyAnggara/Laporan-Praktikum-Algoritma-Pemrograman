@@ -140,60 +140,63 @@ Operator aritmatika digunakan untuk melakukan operasi matematika pada data numer
 
 Operator penugasan digunakan untuk memasukkan nilai ke dalam variabel. Operator penugasan yang tersedia dalam bahasa C adalah:
 
-=: penugasan sederhana
-+=: penugasan penjumlahan
--=: penugasan pengurangan
-*=: penugasan perkalian
-/=: penugasan pembagian
-%=: penugasan modulus
+- =: penugasan sederhana
+- +=: penugasan penjumlahan
+- -=: penugasan pengurangan
+- *=: penugasan perkalian
+- /=: penugasan pembagian
+- %=: penugasan modulus
 
 <h2 align="margin"> Operator Perbandingan </h2>
 
 Operator perbandingan digunakan untuk membandingkan dua nilai. Operator perbandingan yang tersedia dalam bahasa C adalah:
 
-==: sama dengan
-!=: tidak sama dengan
->: lebih besar dari
-<: lebih kecil dari
->=: lebih besar dari atau sama dengan
-<=: lebih kecil dari atau sama dengan
+- ==: sama dengan
+- !=: tidak sama dengan
+- >: lebih besar dari
+- <: lebih kecil dari
+- >=: lebih besar dari atau sama dengan
+- <=: lebih kecil dari atau sama dengan
 
 <h2 align="margin"> Operator Logika</h2>
 
 Operator logika digunakan untuk menggabungkan dua atau lebih pernyataan logika. Operator logika yang tersedia dalam bahasa C adalah:
 
-&&: dan
-||: atau
-!: tidak
+- &&: dan
+- ||: atau
+- !: tidak
 
 <h2 align="margin"> Operator Bitwise</h2>
 
 Operator bitwise digunakan untuk melakukan operasi pada bit data. Operator bitwise yang tersedia dalam bahasa C adalah:
 
-&: AND
-|: OR
-^: XOR
-~: NOT
-<<: shift kiri
->>: shift kanan
+- &: AND
+- |: OR
+- ^: XOR
+- ~: NOT
+- <<: shift kiri
+- >>: shift kanan
 
 <h2 align="margin"> Operator Increment dan Decrement </h2>
 
 Operator increment dan decrement digunakan untuk menambah atau mengurangi nilai variabel dengan 1. Operator increment dan decrement tersedia dalam dua bentuk, yaitu pre-increment dan post-increment, serta pre-decrement dan post-decrement.
 
-Pre-increment
+- Pre-increment
 
 ++a: menambah nilai variabel a dengan 1 sebelum nilai variabel tersebut digunakan.
 ++b: menambah nilai variabel b dengan 1 sebelum nilai variabel tersebut digunakan.
-Post-increment
+
+- Post-increment
 
 a++: menambah nilai variabel a dengan 1 setelah nilai variabel tersebut digunakan.
 b++: menambah nilai variabel b dengan 1 setelah nilai variabel tersebut digunakan.
-Pre-decrement
+
+- Pre-decrement
 
 --a: mengurangi nilai variabel a dengan 1 sebelum nilai variabel tersebut digunakan.
 --b: mengurangi nilai variabel b dengan 1 sebelum nilai variabel tersebut digunakan.
-Post-decrement
+
+- Post-decrement
 
 a--: mengurangi nilai variabel a dengan 1 setelah nilai variabel tersebut digunakan.
 b--: mengurangi nilai variabel b dengan 1 setelah nilai variabel tersebut digunakan.
