@@ -1,5 +1,11 @@
 # Laporan-Praktikum-Algoritma-Pemrograman
 
+<h4 align="margin"> Nama : Dolly Anggara </h4>
+<h4 align="margin"> NIM : 23343034 </h4>
+<h4 align="margin"> Kelas : INF1.62.1008 </h4>
+<h4 align="margin"> Prodi : Informatika </h4>
+<h4 align="margin"> Dosen pembimbing : Randi Proska Sandra, S.Pd., M.Sc.</h4>
+
 <h1 align="margin"> Jobsheet 1 - Pengantar Algoritma dan Pemrograman</h1>
 <h2 align="margin"> Algoritma</h2>
 Algoritma didefinisikan sebagai rangkaian terurut langkah-langkah yang logis dan sistematis yang disusun untuk menyelesaikan suatu masalah. Algoritma dikatakan sebagai jantung ilmu komputer atau informatika dan sebenarnya pemakaian algoritma ini tidak hanya dalam ilmu komputer tetapi juga dalam bidang lain (kehidupan sehari-hari).
