@@ -1,0 +1,18 @@
+Data Mahasiswa ke-1
+Nama: Dolly Anggara
+NIM: 23343034
+Jurusan: informatika
+Program Studi: informatika
+
+Data Mahasiswa ke-2
+Nama: fattan naufan islami
+NIM: 23343037
+Jurusan: informatika
+Program Studi: informatika
+
+Data Mahasiswa ke-3
+Nama: Hasanul Fikri
+NIM: 23343040
+Jurusan: informatika
+Program Studi: informatika
+
