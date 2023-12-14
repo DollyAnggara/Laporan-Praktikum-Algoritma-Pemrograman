@@ -444,7 +444,89 @@ Misalnya, deklarasi berikut akan mendefinisikan pointer angka yang bernilai null
 int *angka = NULL;
 ```
 
-<h1 align="margin"> Jobsheet 10 - </h1>
+<h1 align="margin"> Jobsheet 10 - Enumerasi dan Structure </h1>
 
+<h2 align="margin"> Enumerasi</h2>
+
+Enumerasi adalah tipe data yang digunakan untuk mendefinisikan daftar nilai-nilai konstan. Enumerasi dapat digunakan untuk membuat program yang lebih ringkas dan mudah dibaca.
+
+<h3 align="margin"> Deklarasi Enumerasi</h3>
+
+Deklarasi enumerasi digunakan untuk mendefinisikan enumerasi. Bentuk umum deklarasi enumerasi adalah sebagai berikut:
+```
+enum nama_enumerasi {
+  konstanta_1,
+  konstanta_2,
+  ...
+};
+```
+-	nama_enumerasi adalah nama enumerasi.
+-	konstanta_1, konstanta_2, ... adalah daftar nilai konstan yang akan didefinisikan.
+
+<h2 align="margin"> Structure</h2>
+
+Structure adalah tipe data yang digunakan untuk mendefinisikan kumpulan data yang terkait. Structure dapat digunakan untuk membuat program yang lebih ringkas dan mudah dibaca.
+
+
+<h3 align="margin"> Deklarasi Structure</h3>
+Deklarasi structure digunakan untuk mendefinisikan structure. Bentuk umum deklarasi structure adalah sebagai berikut:
+
+```
+struct nama_structure {
+  tipe_data_1 nama_variabel_1;
+  tipe_data_2 nama_variabel_2;
+  ...
+};
+```
+•	nama_structure adalah nama structure.
+•	tipe_data_1, tipe_data_2, ... adalah tipe data dari variabel-variabel yang akan didefinisikan dalam structure.
+•	nama_variabel_1, nama_variabel_2, ... adalah nama variabel-variabel yang akan didefinisikan dalam structure.
+
+<h3 align="margin"> Akses Elemen Structure</h3>
+
+Elemen structure dapat diakses dengan cara menggunakan operator ..
+Misalnya, pernyataan berikut akan mencetak nama variabel mahasiswa:
+```
+printf("%s\n", mahasiswa.nama); 
+```
 
 <h1 align="margin"> Jobsheet 11 - File Handling in C</h1>
+
+File handling adalah kemampuan untuk membaca dan menulis file dalam bahasa pemrograman C. File handling dapat digunakan untuk menyimpan data, seperti teks, gambar, atau audio.
+
+<h2 align="margin"> File Mode</h2>
+File mode adalah mode yang digunakan untuk membuka file. File mode dapat digunakan untuk menentukan apakah file akan dibuka untuk dibaca, ditulis, atau diubah.
+Berikut adalah beberapa file mode yang umum digunakan:
+
+- "r" : Mode baca
+- "w" : Mode tulis
+- "a" : Mode tambahkan
+- "r+" : Mode baca dan tulis
+- "w+" : Mode tulis dan baca
+- "a+" : Mode tambahkan dan baca
+
+<h2 align="margin"> Fungsi File Handling</h2>
+
+Bahasa pemrograman C menyediakan beberapa fungsi untuk melakukan file handling. Fungsi-fungsi tersebut adalah sebagai berikut:
+
+-	fopen() : Fungsi untuk membuka file
+-	fclose() : Fungsi untuk menutup file
+-	fread() : Fungsi untuk membaca data dari file
+-	fwrite() : Fungsi untuk menulis data ke file
+-	fseek() : Fungsi untuk memindahkan posisi kursor file
+-	ftell() : Fungsi untuk mendapatkan posisi kursor file
+
+<h2 align="margin"> Detail File Handling</h2>
+
+-	Fungsi fopen()
+Fungsi fopen() digunakan untuk membuka file. Fungsi ini memiliki dua parameter, yaitu nama file dan mode file.
+-	Fungsi fclose()
+Fungsi fclose() digunakan untuk menutup file. Fungsi ini memiliki satu parameter, yaitu file pointer.
+-	Fungsi fread()
+Fungsi fread() digunakan untuk membaca data dari file. Fungsi ini memiliki empat parameter, yaitu buffer, ukuran buffer, jumlah byte yang akan dibaca, dan file pointer.
+-	Fungsi fwrite()
+Fungsi fwrite() digunakan untuk menulis data ke file. Fungsi ini memiliki empat parameter, yaitu data, ukuran data, jumlah byte yang akan ditulis, dan file pointer.
+-	Fungsi fseek()
+Fungsi fseek() digunakan untuk memindahkan posisi kursor file. Fungsi ini memiliki tiga parameter, yaitu file pointer, offset, dan mode.
+-	Fungsi ftell()
+Fungsi ftell() digunakan untuk mendapatkan posisi kursor file. Fungsi ini memiliki satu parameter, yaitu file pointer.
