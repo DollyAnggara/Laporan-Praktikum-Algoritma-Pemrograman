@@ -256,7 +256,7 @@ ekspresi ? ekspresi_jika_benar : ekspresi_jika_salah;
 ```
 Ekspresi pertama akan dievaluasi terlebih dahulu. Jika nilai ekspresi pertama adalah benar, maka ekspresi kedua akan dievaluasi dan hasilnya akan dikembalikan. Jika nilai ekspresi pertama adalah salah, maka ekspresi ketiga akan dievaluasi dan hasilnya akan dikembalikan.
 
-<h1 align="margin"> Jobsheet 6 - Flow Control (Perulangan))</h1>
+<h1 align="margin"> Jobsheet 6 - Flow Control (Perulangan)</h1>
 
 Perulangan adalah salah satu bagian penting dalam pemrograman. Perulangan memungkinkan pemrogram untuk mengeksekusi blok kode berulang kali. Perulangan dapat digunakan untuk melakukan tugas-tugas yang berulang, seperti mencetak angka dari 1 hingga 10, atau menambahkan semua bilangan dari 1 hingga 100.
 
@@ -306,3 +306,145 @@ for (int i = 0; i < 3; i++) {
   }
 }
 ```
+<h1 align="margin"> Jobsheet 7 - Array</h1>
+Array adalah struktur data yang digunakan untuk menyimpan sekumpulan data dalam satu tempat. Array dapat menyimpan data dengan tipe data yang sama.
+
+<h2 align="margin"> Deklarasi Array</h2>
+
+Deklarasi array digunakan untuk mendefinisikan array. Bentuk umum deklarasi array adalah sebagai berikut:
+```
+tipe_data nama_array[ukuran];
+```
+-	tipe_data adalah tipe data yang akan disimpan dalam array.
+-	nama_array adalah nama array.
+-	ukuran adalah jumlah elemen dalam array.
+Array dapat diinisialisasi saat deklarasi atau setelah deklarasi.
+
+<h2 align="margin"> Mengakses Elemen Array</h2>
+
+Elemen array dapat diakses dengan cara menggunakan indeks. Indeks array dimulai dari 0.
+Misalnya, pernyataan berikut akan mencetak nilai elemen pertama array angka:
+```
+printf("%d\n", angka[0]); // 1
+```
+
+<h2 align="margin"> Perulangan untuk Mengakses Array</h2>
+
+Perulangan dapat digunakan untuk mengakses elemen array.
+Misalnya, pernyataan berikut akan mencetak semua nilai elemen array angka:
+```
+for (int i = 0; i < 10; i++) {
+  printf("%d\n", angka[i]);
+}
+```
+<h2 align="margin"> Operasi Array</h2>
+
+Array dapat dioperasikan dengan operator-operator matematika, seperti penjumlahan, pengurangan, perkalian, dan pembagian.
+Misalnya, pernyataan berikut akan menambahkan semua nilai elemen array angka dan menyimpan hasilnya dalam variabel total:
+```
+int total = 0;
+
+for (int i = 0; i < 10; i++) {
+  total += angka[i];
+}
+```
+<h2 align="margin"> Array Multidimensi</h2>
+
+Array multidimensional adalah array yang memiliki lebih dari satu dimensi. Array multidimensional dapat digunakan untuk menyimpan data yang lebih kompleks, seperti matriks atau tabel.
+Misalnya, deklarasi berikut akan mendefinisikan array matriks dengan tipe data int dan ukuran 3x3:
+```
+int matriks[3][3];
+```
+
+
+
+<h1 align="margin"> Jobsheet 8 - Fungsi dan Prosedur</h1>
+
+<h2 align="margin"> Fungsi</h2>
+
+Fungsi adalah unit program yang dapat mengembalikan nilai. Fungsi dapat digunakan untuk melakukan tugas-tugas yang berulang atau kompleks.
+
+<h3 align="margin"> Deklarasi Fungsi</h3>
+
+Deklarasi fungsi digunakan untuk mendefinisikan fungsi. Bentuk umum deklarasi fungsi adalah sebagai berikut:
+```
+tipe_kembali nama_fungsi(parameter_1, parameter_2, ...);
+```
+- tipe_kembali adalah tipe data yang akan dikembalikan oleh fungsi.
+-	nama_fungsi adalah nama fungsi.
+-	parameter_1, parameter_2, ... adalah parameter yang akan diterima oleh fungsi.
+
+<h3 align="margin"> Pemanggilan Fungsi</h3>
+Fungsi dapat dipanggil dengan cara menuliskan nama fungsi dan memberikan nilai parameter.
+Misalnya, pernyataan berikut akan memanggil fungsi jumlah dengan nilai parameter 10 dan 20:
+```
+int hasil = jumlah(10, 20);
+```
+<h2 align="margin"> Prosedur</h2>
+
+Prosedur adalah unit program yang tidak dapat mengembalikan nilai. Prosedur dapat digunakan untuk melakukan tugas-tugas yang berulang atau kompleks.
+
+<h3 align="margin"> Deklarasi Prosedur</h3>
+
+Deklarasi prosedur mirip dengan deklarasi fungsi, hanya saja tipe data yang dikembalikan adalah void.
+```
+void nama_prosedur(parameter_1, parameter_2, ...);
+```
+<h3 align="margin"> Pemanggilan Prosedur</h3>
+
+Prosedur dapat dipanggil dengan cara menuliskan nama prosedur.
+Misalnya, pernyataan berikut akan memanggil prosedur tulis_pesan:
+```
+tulis_pesan();
+```
+
+<h1 align="margin"> Jobsheet 9 - Pointer</h1>
+
+Pointer adalah variabel yang menyimpan alamat memori dari variabel lain. Pointer dapat digunakan untuk mengakses variabel lain secara tidak langsung.
+
+<h2 align="margin"> Deklarasi Pointer</h2>
+
+Deklarasi pointer digunakan untuk mendefinisikan pointer. Bentuk umum deklarasi pointer adalah sebagai berikut:
+```
+tipe_data *nama_pointer;
+```
+•	tipe_data adalah tipe data dari variabel yang akan diakses oleh pointer.
+•	nama_pointer adalah nama pointer.
+
+<h2 align="margin"> Nilai pointer</h2>
+
+Nilai pointer adalah alamat memori dari variabel yang diakses oleh pointer. Nilai pointer dapat diakses dengan cara menggunakan operator *.
+Misalnya, pernyataan berikut akan mencetak nilai pointer angka:
+```
+printf("%p\n", angka); // 0x7fff56789012
+```
+
+<h2 align="margin"> Mengakses Variabel Melalui Pointer</h2>
+
+Variabel dapat diakses secara tidak langsung melalui pointer. Untuk mengakses variabel melalui pointer, dapat digunakan operator *.
+Misalnya, pernyataan berikut akan mencetak nilai variabel x melalui pointer angka:
+```
+printf("%d\n", *angka); // 10
+```
+
+<h2 align="margin"> Operasi Pointer</h2>
+
+Pointer dapat dioperasikan dengan operator-operator matematika, seperti penjumlahan, pengurangan, perkalian, dan pembagian.
+Misalnya, pernyataan berikut akan menambahkan nilai 10 ke nilai variabel x melalui pointer angka:
+```
+*angka += 10;
+```
+
+<h2 align="margin"> Pointer Null</h2>
+
+Pointer null adalah pointer yang tidak menyimpan alamat memori dari variabel apa pun. Pointer null dapat digunakan untuk menandakan bahwa pointer tersebut tidak valid.
+Untuk mendeklarasikan pointer null, dapat digunakan nilai NULL.
+Misalnya, deklarasi berikut akan mendefinisikan pointer angka yang bernilai null:
+```
+int *angka = NULL;
+```
+
+<h1 align="margin"> Jobsheet 10 - </h1>
+
+
+<h1 align="margin"> Jobsheet 11 - File Handling in C</h1>
